@@ -1,0 +1,287 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #111;
+  color: #9f9f9f;
+
+}
+
+
+i.icon {
+  line-height: 100%;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f0f0f0;
+}
+b {
+  font-weight: 700;
+}
+a {
+  transition: all 0.15s ease-in-out;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+hr {
+  border-top: 3px solid #1b1b1b;
+  margin: 0;
+}
+
+/*--------------------
+ navbar aroa
+ --------------------*/
+
+nav#navbar {
+  background-color: transparent;
+  padding: 23px 50px;
+}
+
+a.bavbar-brand {
+  color: #009e66;
+}
+
+/* navbar logo  */
+
+img {
+  width: 110px;
+}
+
+a.nav-link {
+  margin-right: 32px;
+  color: #e6e6e6;
+  font-size: 15px;
+  padding: 0;
+}
+
+
+/* <!-- contact section  --> */
+
+
+/* get in tach animaion */
+.lightbox-content {
+    margin: 70px 0;
+}
+
+.animated-bar:before {
+  left: 8px;
+}
+.animated-bar:before {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: barAnimation;
+  -webkit-animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: barAnimation;
+  animation-timing-function: linear;
+  background-color: #101010;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+.animated-bar:after {
+  left: 0;
+}
+
+.animated-bar:before {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: barAnimation;
+  -webkit-animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: barAnimation;
+  animation-timing-function: linear;
+  background-color: #101010;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+/* contact form aria  */
+
+h4.content-title {
+    margin-bottom: 22px;
+    line-height: 1.5;
+}
+
+
+input.form-control {
+    color: #777;
+    background-color: #161616;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+}
+
+input.col-12.form-group {
+    background-color: #161616;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 0;
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+}
+
+textarea {
+    height: auto;
+    color: #777;
+    background-color: #161616;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 0;
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+}
+
+button.btn.button-main.button-scheme {
+    padding: 10px 26px;
+    color: #fff;
+    /* background-color: #fff; */
+    border: 1px solid #fff;
+    border-radius: 30px;
+    /* color: #222; */
+    font-size: 14px;
+    padding: 10px 35px;
+    background-color: #fff;
+    /* border: 1px solid #fff; */
+    /* border-radius: 30px; */
+    /* color: #222; */
+    /* font-size: 14px; */
+    /* padding: 10px 35px; */
+    background-color: #009e66!important;
+    border: 1px solid #009e66!important;
+}
+
+.col-12.col-md-6.form-group {
+    margin-bottom: 25px;
+}
+
+.col-12.form-group {
+    margin-bottom: 25px;
+}
+
+input.col-12.form-group {
+    color: #777;
+    background-color: #161616;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+}
+
+textarea {
+    width: 100%;
+    color: #777;
+    background-color: #161616;
+    border: none;
+    border-bottom: 1px solid #303130a6;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+}
+
+
+
+/* genin tach sectin  */
+
+.section-heading.page-heading {
+  margin-bottom: 83px;
+  text-align: center;
+}
+
+p.section-description {
+  font-size: 15px;
+  margin-bottom: 17px;
+}
+
+h2.section-title {
+  font-size: 46px;
+  margin-bottom: 37px;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  line-height: 100%;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 9;
+}
+
+.animated-bar {
+  background-color: #009e66;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  margin: 0 auto 0 auto;
+  position: relative;
+  right: 0;
+  width: 75px;
+}
+
+/* contact info section  */
+
+.contact-info {
+  padding-left: 15px;
+}
+
+.contact-title > h1 {
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.contact-title > p {
+  font-size: 15px;
+  margin-bottom: 28px;
+}
+
+ul.list-unstyled.list-info {
+  margin: 0;
+}
+
+span.info-icon {
+  margin-bottom: 13px;
+}
+
+i.icon.ion-logo-ionic {
+  color: #009e66;
+}
+
+.media-body.info-details {
+  border-left: 2px solid rgba(255, 255, 255, 0.15);
+  padding: 12px 0 12px 22px;
+}
+
+h6.info-type {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+}

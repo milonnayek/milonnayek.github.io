@@ -1,0 +1,182 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*-----------------------------------
+    background video home aria
+     ------------------------------------*/
+video#myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*--------------------
+ navbar aroa
+ --------------------*/
+
+nav#navbar {
+  background-color: transparent;
+  padding: 23px 50px;
+}
+
+a.bavbar-brand {
+  color: #009e66;
+}
+
+/* navbar logo  */
+
+img {
+  width: 110px;
+}
+
+a.nav-link {
+  margin-right: 32px;
+  color: #e6e6e6;
+  font-size: 15px;
+  padding: 0;
+}
+
+/* -- home section  -- */
+
+section.home-area.element-cover-bg.video-variant {
+  background: url();
+  background-color: #111;
+  background-position: center center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+p.home-sm-t {
+  color: #cfffff;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+h1.home-name {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 34px;
+  position: relative;
+}
+
+h4.cd-headline.clip.home-headline {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+span.cd-words-wrapper.single-headline {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* ---- Languege List ----  */
+
+.fixed-wrapper {
+  left: 0px;
+  bottom: 34px;
+  position: relative;
+}
+
+.fixed-block.block-left {
+  left: 0;
+  bottom: 34px;
+  position: absolute;
+}
+
+ul.list-unstyled.languages-list {
+  margin-bottom: 0;
+}
+
+a {
+}
+
+ul.list-unstyled.languages-list > li > a {
+  transition: all 0.15s ease-in-out;
+}
+
+span.single-language {
+  color: #e6e6e6;
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+/* -- social midea icon  -- */
+
+.fixed-wrapper {
+  left: 0px;
+  bottom: 34px;
+  position: relative;
+}
+
+.fixed-block.block-left {
+  left: 0;
+  bottom: 34px;
+  position: absolute;
+}
+
+ul.list-unstyled.languages-list {
+  margin-bottom: 0;
+}
+
+a {
+}
+
+ul.list-unstyled.languages-list > li > a {
+  transition: all 0.15s ease-in-out;
+}
+
+span.single-language {
+  color: #e6e6e6;
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.fixed-block.block-right {
+  right: 0;
+  bottom: 34px;
+  position: absolute;
+}
+
+ul.list-unstyled.social-icons {
+  margin-bottom: 0;
+}
+
+ul.list-unstyled.social-icons > li {
+  line-height: 100%;
+  margin-top: 14px;
+  text-align: center;
+}
+
+ul.list-unstyled.social-icons > li > a {
+  color: #009e66;
+  transition: all 0.15s ease-in-out;
+}
+
+ul.list-unstyled.social-icons > li > a > i {
+  color: #f3f3f3;
+  font-size: 23px;
+  line-height: 100%;
+}
+
+ul.list-unstyled.social-icons {
+}

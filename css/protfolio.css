@@ -1,0 +1,134 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+    background: rgb(53 52 52) !important;
+}
+
+a{
+  color:#534b4b;
+}
+/*--------------------
+ navbar aroa
+ --------------------*/
+
+nav#navbar {
+  background-color: transparent;
+  padding: 23px 50px;
+}
+
+a.bavbar-brand {
+  color: #009e66;
+}
+
+/* navbar logo  */
+
+img {
+  width: 110px;
+}
+
+a.nav-link {
+  margin-right: 32px;
+  color: #e6e6e6;
+  font-size: 15px;
+  padding: 0;
+}
+
+
+
+/* <!-- social link section --> */
+
+.info_social {
+  align-items: center;
+  text-align: center;
+  padding: 65px;
+  font-size: 34px;
+}
+
+.info_social > a {
+  text-align: center;
+  text-decoration: none;
+  color: #eeeeee;
+  border-radius: 100%;
+}
+
+.info_social > a > i {
+  font-size: 31px;
+  margin-left: 8px;
+}
+
+/* social link btn */
+
+.hireme-btn-color {
+  background: red;
+}
+
+.protfolio-btn-color {
+  color: white;
+}
+
+/* -- All Ready Demos section -- */
+
+section.demosPages {
+    background: #161515;
+}
+
+/*-- protfolio demons title section  */
+
+.demos-hade-line {
+    background: #ececec;
+}
+.demos-hade-line {
+    padding: 92px;
+}
+
+.demostitle>h1 {
+    font-size: 30px;
+}
+
+/* -- All Ready Demos  link navebar  -- */
+
+.Demos-nevContainer {
+    background: black;
+    padding: 12px;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  place-items: center;
+  /* height: 100%; */
+  width: 75vw;
+}
+
+.content {
+  z-index: 1;
+}
+
+/* protfolio page title  */
+
+.protfolioHomeTitle {
+  text-align: center;
+  align-items: center;
+}
+
+.protfolioHomeTitle > h1 {
+  margin: 24px;
+  font-family: system-ui;
+  color: red;
+}
+
+.protfolioHomeTitle > h3 {
+  font-size: 40px;
+  margin: 18px;
+  font-family: sans-serif;
+  color: gainsboro;
+}
+
+.protfolioHomeTitle > p {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 66px;
+}
+
